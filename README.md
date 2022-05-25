@@ -12,7 +12,7 @@ In order to facilitate the reading of the data, we first preprocess the image us
 This is the command for using 1 GPU for training.
 
 ```
-CUDA_VISIBLE_DEVICES=5 python train.py --path ../Dataset/CT_MR/ --save_path ../Weight/  --epochs 5000 --batch_size 1
+python train.py --path ../Dataset/CT_MR/ --save_path ../Weight/  --epochs 5000 --batch_size 1
 ```
 
 ## Test
